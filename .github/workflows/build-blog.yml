@@ -6,6 +6,7 @@ on:
       - main  # default branch
     paths:
       - 'blogs/**'
+      - '.github/workflows/build-blog.yml'
 
 jobs:
   build-blog:
