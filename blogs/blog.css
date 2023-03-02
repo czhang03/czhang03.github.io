@@ -1,0 +1,16 @@
+.poetry {
+    display: flex;
+    flex-direction: column;
+}
+
+.poetry h1 {
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.poetry span {
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
