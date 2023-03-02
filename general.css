@@ -1,0 +1,13 @@
+h2 {
+    margin: 5px 0
+}
+
+ul {
+    margin: 5px 0
+}
+
+#all {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
