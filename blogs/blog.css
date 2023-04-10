@@ -1,5 +1,6 @@
 .poetry {
-    width: max-content;
+    width: 450px;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -8,6 +9,7 @@
 
 .poetry h1, h2 {
     width: max-content;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -19,16 +21,24 @@
 
 .poetry span {
     width: max-content;
+    max-width: 95%;
     margin-right: auto;
     margin-left: auto;
 }
 
-.poetry span.left, h2.left, h1.left {
-    margin-left: 10%;
+.poetry span.left {
+    margin-left: 0;
+    margin-right: auto ;
+}
+
+.poetry h2.left, h1.left {
+    margin-left: 7.5%;
     margin-right: auto ;
 }
 
 .poetry .attribution {
+    margin-right: auto;
+    margin-left: auto;
     padding-bottom: 10px;
-    padding-left: 5cm;
+    padding-left: 2cm;
 }
