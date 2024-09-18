@@ -11,10 +11,26 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <link rel="shortcut icon" href="./cat.PNG" />
   <link rel="stylesheet" href="./general.css">
 </head>
 <style>
+  #header {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  #menu-bar {
+    font-size: large;
+    margin-bottom: 15px;
+  }
+
+  .menu-item {
+    padding:5px;
+    white-space: nowrap;
+  }
+
   .header-image {
     float: right;
     width: 30%;
@@ -59,7 +75,21 @@
 <body>
   <div id="all">
 
-    <h1 class="main-header">Cheng Zhang</h1>
+    <div id="header">
+      <h1 style="margin:0; padding-right: 10px;display: inline;">Cheng Zhang</h1>
+      <div style="display: inline; white-space: nowrap;">(he/him)</div>
+    </div>
+
+    <div id="menu-bar">
+      <a class="menu-item" href="https://scholar.google.com/citations?user=_pppqNwAAAAJ&hl=en&oi=sra" target="_blank"
+        rel="noopener noreferrer"><i class="fa-brands fa-google-scholar"></i> Scholar</a> |
+      <a class="menu-item" href="https://www.researchgate.net/profile/Cheng-Zhang-232" target="_blank"
+        rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i> ResearchGate</a> |
+      <a class="menu-item" href="mailto:czhang03@bu.edu" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i> Email</a> |
+      <a class="menu-item" rel="me" href="https://mathstodon.xyz/@czhang03" target="_blank"><i class="fa-brands fa-mastodon"></i> Mastodon</a> |
+      <a class="menu-item" href="https://signal.me/#eu/-YZID9mO0OVXHoCGRTnNDwYQ8GYryxOxkZKxTnqhW3waS52lAAdAmppu13xJ89Ki"
+        target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-signal-messenger"></i> Signal</a>
+    </div>
 
     <figure class="header-image">
       <img src="./photo_cheng.jpeg" alt="Photo of me enjoying some Wendy's spicy chicken nuggets">
@@ -69,7 +99,6 @@
     </figure>
 
     <div class="description-item">
-      <h2>Research</h2>
       <div>
         <p>
           I am an incoming postdoc research fellow at UCL
@@ -213,25 +242,6 @@
       </div>
     </div>
 
-    <div class="description-item" id="Contact">
-      <h2>Contact</h2>
-      <ul>
-        <li>
-          <strong>Email: </strong>
-          czhang03@bu.edu
-        </li>
-        <li>
-          <strong>Signal: </strong>
-          <a
-            href="https://signal.me/#eu/-YZID9mO0OVXHoCGRTnNDwYQ8GYryxOxkZKxTnqhW3waS52lAAdAmppu13xJ89Ki">czhang03.04</a>
-        </li>
-        <li>
-          <strong>Mastodon:</strong>
-          <a rel="me" href="https://mathstodon.xyz/@czhang03" target="_blank"> @czhang03@mathstodon.xyz </a>
-        </li>
-      </ul>
-    </div>
-
     <div class="description-item">
       <h2>Teaching</h2>
       <div>
@@ -263,14 +273,6 @@
         My last name (Zhang) as is pronounced as: <br>
         <embed width='375' height='180' src='https://embed.howtopronounce.com/classic/en/zhang/31070787'>
       </p>
-      <p>
-        My pronoun is <a href="https://en.pronouns.page/he">he/him</a> or gender-neutral <a
-          href="https://en.pronouns.page/they">they/them</a>.
-        But I personally will not be offended if mis-gendered or have my name mis-pronounced.
-      </p>
-    </div>
-
-
 
   </div>
 
