@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./general.css">
 </head>
 <style>
+
   .header-image {
     float: right;
     width: 30%;
@@ -22,6 +23,17 @@
 
   .header-image>img {
     width: 100%;
+  }
+
+  #news-items {
+    font-size: large;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-width: 700px) {
+    #news-items {
+      margin-left: 0;
+    }
   }
 
   .description-item {
@@ -61,7 +73,7 @@
         <h2>Research</h2>
         <div>
           <p>
-            I am an incoming Postdoc research fellow at UCL 
+            I am an incoming postdoc research fellow at UCL 
             <a href="http://pplv.cs.ucl.ac.uk/" target="_blank" rel="noopener noreferrer">Programming Principles, Logic, and Verification Group</a>,
             working with Professor 
             <a href="https://alexandrasilva.org" target="_blank" rel="noopener noreferrer">Alexandra Silva</a>.
@@ -93,6 +105,14 @@
               rel="noopener noreferrer"><strong>CV</strong></a>
             and <a href="https://media.githubusercontent.com/media/czhang03/Research-Statement/main/main.pdf"
               target="_blank" rel="noopener noreferrer"><strong>research statement</strong></a></p>
+        </div>
+      </div>
+
+      <div class="description-item">
+        <h2>News</h2>
+        <div id="news-items">
+          <p> <strong>Sep 2024</strong> --- I am joining PPLV groups of UCL as a postdoc! </p>
+          <p> <strong>Aug 2024</strong> --- I have finished my Ph.D. at Boston University! </p>
         </div>
       </div>
 
